@@ -1,0 +1,25 @@
+{
+  "name": "qiankun-issue-demo",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "build": "pnpm -r --parallel run build",
+    "preview": "pnpm -r --parallel run preview",
+    "clean": "rm -rf node_modules **/*/node_modules"
+  },
+  "dependencies": {
+    "@vueuse/core": "^8.9.4",
+    "qiankun": "2.7.0",
+    "vue": "3.2.31",
+    "vue-router": "4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "2.3.1",
+    "postcss-html": "1.3.0",
+    "sass": "1.50.0",
+    "typescript": "4.6.3",
+    "unplugin-auto-import": "0.7.1",
+    "vite": "2.9.1"
+  }
+}
